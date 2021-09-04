@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.amsterdam {
+  background-image: url("https://images.ctfassets.net/gxwgulxyxxy1/5DXMsnRSzLRiw2a0T4e5JQ/6b97b12988bcc6c417782d63f3f820d8/daniil-vnoutchkov-ABCHenqNe6c-unsplash.jpg?fm=jpg&fl=progressive&w=1024&h=429&fit=fill&q=100");
+}
+
+.rome {
+  background-image: url("https://wpcdn.paytourist.com/wp-content/uploads/2019/11/tassa-di-soggiorno-roma.jpg");
+}
+
+.nyc {
+  background-image: url("https://images.fidhouse.com/fidelitynews/wp-content/uploads/sites/9/2015/01/45.jpg?w=996");
+}
+
+.city {
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  padding: 10px;
+}
+
+.city a {
+  color: white;
+  text-decoration: none;
+}
+
+.city:hover {
+  background-color: black;
+}
